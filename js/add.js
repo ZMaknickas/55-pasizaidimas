@@ -4,7 +4,7 @@ const listDOM = document.querySelector('.block-list');
 let count=0;
 btnDOM.addEventListener('click', () => {
     listDOM.innerHTML += `<div class="block">${++count}</div>`;
-    if (count>25)
+    if (count>23)
     listDOM.innerHTML='';
 });
 
